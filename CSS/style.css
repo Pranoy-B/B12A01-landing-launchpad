@@ -103,6 +103,7 @@ body {
 }
 
 .action-button {
+    border-style: none;
     border-radius: 8px;
     color: white;
     font-size: medium;
@@ -114,4 +115,47 @@ body {
     height: 328px;
     width: 403px;
     border-radius: 50px;
+}
+
+/* Productive user section */
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    height: 306px;
+    background-color: #cde3f7;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.user-1 {
+    justify-content: center;
+    align-items: center;
+    height: 206px;
+    width: 856px;
+    margin: auto;
+    text-align: center;
+}
+
+.user-1 h2{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.user-info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info h1{
+    color: #4E47FF;
+    font-size: 80px;
+}
+
+.user-info p{
+    font-size: larger;
 }
