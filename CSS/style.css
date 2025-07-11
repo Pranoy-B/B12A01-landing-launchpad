@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+
 /* Navigation */
 
 .nav-banner {
@@ -17,11 +18,13 @@
     padding-top: 50px;
     padding-bottom: 50px;
     margin: auto;
+    align-items: center;
 }
  
 .logo {
     color: #4E47FF;
     font-weight: bolder;
+    font-size: 60px;
 }
 
 .button {
@@ -31,7 +34,15 @@
     background-color: #4E47FF;
     color: white;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(16, 16, 175);
+    font-size: 25px;
+
 }
 
 .banner-gap {
@@ -64,9 +75,16 @@
     border-radius: 10px;
     padding: 12px 25px ;
     font-weight: bold;
+    font-size: 20px;
 }
 
-main {
+.banner-button button:hover {
+    color: white;
+    background-color: rgb(16, 16, 175);
+    font-size: 25px;
+}
+
+body {
     background-color: #f0faf7;
 }
 
@@ -103,12 +121,19 @@ main {
 }
 
 .action-button {
+    font-weight: 700;
     border-style: none;
     border-radius: 8px;
     color: white;
     font-size: medium;
     padding: 10px 20px;
     background-color: #4E47FF;
+}
+
+.action-button:hover {
+    color: whitesmoke;
+    background-color: rgb(16, 16, 175);
+    font-size: 20px;
 }
 
 .action-image {
@@ -224,12 +249,23 @@ input {
     font-weight: bold
 }
 
+.form-btn:hover{
+    color: whitesmoke;
+    background-color: rgb(16, 16, 175);
+    font-size: 20px;
+}
+
 /* Footer Section */
 
+footer {
+    background-color: white
+}
+
 .footer {
+    padding-top: 80px;
     background-color: white;
     max-width: 1440px;
-    height: 428px;
+    height: 348px;
     margin: auto;
     text-align: center;
     justify-content: center;
@@ -271,6 +307,7 @@ input {
 .review {
     max-width: 1140px;
     margin: auto;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
 }
