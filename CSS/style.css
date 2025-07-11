@@ -264,3 +264,67 @@ input {
 .footer-bar a{
     font-size: 20px;
 }
+
+
+/* Review Section */
+
+.review {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-card {
+    border-radius: 10px;
+    background-color: white;
+    height: 243px;
+    width: 326px;
+    padding: 30px 20px 0px;
+}
+
+.review-img {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    padding: 10px 50px 10px 0px;
+}
+
+.review-img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.review-star {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.review-text h3{
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+}
+
+.review-text p{
+    font-size: 20px;
+    padding: 10px 50px 10px 0px;
+}
+
+.reviewer-text {
+    text-align: left;
+    align-items: left;
+    padding-left: 20px;
+}
+
+.reviewer-text h5{
+    padding: 5px 0px;
+    font-size: 20px;
+}
+
+.reviewer-text p{
+    padding: 5px 0px;
+    font-size: larger;
+}
