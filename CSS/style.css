@@ -66,7 +66,7 @@
     font-weight: bold;
 }
 
-body {
+main {
     background-color: #f0faf7;
 }
 
@@ -201,6 +201,7 @@ input[type=text] {
 }
 
 textarea {
+    border-style: none;
     font-size: large;
     border-radius: 10px;
     width: 457px;
@@ -221,4 +222,45 @@ input {
     color: white;
     border-radius: 10px;
     font-weight: bold
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: white;
+    max-width: 1440px;
+    height: 428px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    width: 531px;
+    height: 221px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bar {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.footer h1{
+    font-size: 90px;
+    color: #4E47FF;
+    padding: 7% 10px 10px;
+}
+
+.footer p{
+    font-size: 19px;
+    padding: 10px;
+}
+
+.footer-bar a{
+    font-size: 20px;
 }
