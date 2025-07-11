@@ -159,3 +159,66 @@ body {
 .user-info p{
     font-size: larger;
 }
+
+/* Newsletter Section */
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    height: 632px;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.newsletter h1{
+    text-align: left;
+    font-size: 90px;
+}
+
+.form {
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 497px;
+    height: 490px;
+}
+
+label {
+    font-size: larger;
+    padding: 10px 0;
+}
+
+input[type=text] {
+    font-size: medium;
+    border-style: none;
+    background-color: white;
+    width: 457px;
+    height: 70px;
+    margin: 10px auto;
+    padding: 5px 20px;
+}
+
+textarea {
+    font-size: large;
+    border-radius: 10px;
+    width: 457px;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+input {
+    border-radius: 10px;
+}
+
+.form-btn {
+    margin: 10px auto;
+    border-style: none;
+    width: 497px;
+    height: 62px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold
+}
