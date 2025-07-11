@@ -306,6 +306,7 @@ footer {
 
 .review-box {
     max-width: 1140px;
+    height: auto;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -329,15 +330,16 @@ footer {
 .review-card {
     border-radius: 10px;
     background-color: white;
-    height: 243px;
+    height: 280px;
     width: 326px;
     padding: 30px 20px 0px;
+    align items left
 }
 
 .review-img {
     display: flex;
     justify-content: left;
-    text-align: center;
+    text-align: left;
     align-items: center;
     padding: 10px 50px 10px 0px;
 }
@@ -357,11 +359,13 @@ footer {
 .review-text h3{
     font-size: 30px;
     padding: 10px 0px 10px 0px;
+    text-align: left;
 }
 
 .review-text p{
     font-size: 20px;
     padding: 10px 50px 10px 0px;
+    text-align: left;
 }
 
 .reviewer-text {
