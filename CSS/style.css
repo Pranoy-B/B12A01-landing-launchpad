@@ -304,7 +304,21 @@ footer {
 
 /* Review Section */
 
+.review-box {
+    max-width: 1140px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+}
+
+.review-box h2{
+    padding: 30px 0px;
+}
+
 .review {
+    align-items: center;
     max-width: 1140px;
     margin: auto;
     margin-bottom: 80px;
